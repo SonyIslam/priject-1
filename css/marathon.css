@@ -1,0 +1,280 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/**=======================basic=========================**/
+
+body {
+    font-family: Arial;
+}
+
+
+
+section {
+    padding: 80px 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1080px;
+}
+
+.btn {
+    text-decoration: none;
+    background: #006ba1;
+    color: #fff;
+    padding: 20px 40px;
+    transition: .7s all;
+    text-transform: uppercase;
+    border-radius: 50px;
+
+}
+
+
+.btn:hover {}
+
+
+
+/**=======================basic-end=========================**/
+
+
+
+
+/**=======================something-start=========================**/
+
+.something {
+    overflow: hidden;
+}
+
+.col-1 {
+    width: 47%;
+    float: left;
+
+}
+
+
+
+.image img {
+    height: auto;
+    position: relative;
+    margin-top: -40px !important;
+    margin-right: 40px !important;
+    margin-bottom: 40px !important;
+    margin-left: -40px !important;
+    width: 100%;
+    max-width: 100% !important;
+    text-align: center;
+
+}
+
+.col-1 h4 {
+
+    text-transform: uppercase;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.25) !important;
+    margin-bottom: 20px;
+
+}
+
+.col-1 h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.col-1 h2::after {
+    display: block;
+    content: "";
+    height: 3px;
+    background: #006ba1;
+    width: 80px;
+    margin-top: 30px;
+
+}
+
+.col-1 p {
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.74) !important;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.box {
+    background-image: linear-gradient(180deg, #4866ff 0%, #6fe5f3 100%);
+    position: relative;
+    min-height: 1px;
+    margin-left: 64px;
+}
+
+/**=======================something-end=========================**/
+
+/**=======================our-story-start===================**/
+.resources {
+    overflow: hidden;
+}
+
+.resources h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.25) !important;
+    margin-bottom: 20px;
+
+}
+
+.resources h2 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.col-2 {
+    width: 30%;
+    margin-right: 3.33%;
+    float: left;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.col-2 .icon {
+    float: left;
+}
+
+.col-2 .icon .fas {
+    font-size: 30px;
+    color: #2ea3f2;
+}
+
+.col-2 .text {
+    margin-left: 44px;
+}
+
+.col-2 .text h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.col-2 .text p {
+    margin-top: 20px;
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.74) !important;
+    margin-bottom: 30px;
+}
+
+.col-2 .text a {
+    text-decoration: none;
+    color: #2ea3f2;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/**=======================our-story-end===================**/
+
+/**=======================loeem-start===================**/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.lorem {
+    max-width: 80%;
+    background-image: linear-gradient(120deg, #a258ff 0%, #308cff 100%) !important;
+}
+
+.main {
+    max-width: 80%;
+    position: relative;
+    left: 350px;
+
+}
+
+.col-3 {
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+}
+
+.col-3 p {
+    line-height: 1.6;
+    font-size: 27px;
+    color: #fff;
+}
+
+.col-3 h4 {
+    color: #fff;
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.col-3 .color {
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+}
+
+.col-3 img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+.
+/**=======================loeem-end===================**/
+/**responsive**/
+
+@media (max-width:990px) {
+    /**=======================something-start=========================**/
+
+    .box {
+        margin-left: 47px;
+    }
+
+    /**=======================something-end=========================**/
+
+}
+
+@media (max-width:980px) {
+
+    /**=======================something-start=========================**/
+
+    .col-1 {
+        width: 100%;
+        float: none;
+    }
+
+    .box {
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+    /**=======================something-end=========================**/
+
+    .col-2 {
+        width: 100%;
+        float: none;
+    }
+
+    .main {
+        max-width: 80%;
+        position: relative;
+        left: 0px;
+
+    }
+
+    .col-3 {
+        width: 100%;
+        margin-right: 0%;
+        float: none;
+    }
+
+}
+
+
+
+/**responsive**/
